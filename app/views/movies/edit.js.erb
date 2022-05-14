@@ -1,0 +1,2 @@
+console.log("howdy from movies#edit");
+$("#<%= dom_id(@movie) %>").replaceWith(`<%= j(render("movies/form", movie: @movie)) %>`);
